@@ -1,3 +1,10 @@
+@font-face{
+    font-family:'Comic Sans';
+    src:url(ComicSansMS/Comic-Sans-MS.woff2);
+    font-style:normal;
+    font-weight:100
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -54,7 +61,7 @@ body{
     text-align: center;
 }
 .e4{
-    font-family: cursive;
+    font-family: "Comic Sans",cursive;
     font-size: 23.99999px;
     font-weight: bold;
     color: rgb(116, 27, 71);
@@ -62,7 +69,7 @@ body{
 }
 
 .e5{
-    font-family: cursive;
+    font-family: "Comic Sans",cursive;
     font-size: 21.33333px;
     list-style-type: none;
     margin-left: 4rem;
@@ -71,7 +78,7 @@ body{
     content: "\27A2";
 }
 .e6{
-    font-family: cursive;
+    font-family: "Comic Sans",cursive;
     font-size: 18.6666px;
 }
 .e6s1{
@@ -80,7 +87,7 @@ body{
     font-size: 21.328px;
 }
 .e7{
-    font-family: cursive;
+    font-family: "Comic Sans",cursive;
     font-size: 47.999px;
     font-weight: bolder;
     text-align: center;
@@ -111,14 +118,14 @@ body{
     font-weight: bolder;
 }
 .e12{
-    font-family: cursive;
+    font-family: "Comic Sans",cursive;
     font-size: 18.662px;
 }
 .e12s1{
     color: rgb(61, 133, 198);
 }
 .e13{
-    font-family: cursive;
+    font-family: "Comic Sans",cursive;
     font-size: 21.332px;
     color: rgb(166, 77, 121);
     text-align: center;
@@ -132,18 +139,18 @@ body{
 }
 .e15{
     display: inline-block;
-    font-family: cursive;
+    font-family: "Comic Sans",cursive;
     font-size: 21.332px;
     background-color: rgb(116, 27, 71);
     color: #fff;
 }
 .e16{
-    font-family: cursive;
+    font-family: "Comic Sans",cursive;
     font-size: 26.666px;
     color: rgb(11, 83, 148);
 }
 .e17{
-    font-family: cursive;
+    font-family: "Comic Sans",cursive;
     font-size: 21.332px;
     font-weight: bolder;
 }
@@ -162,7 +169,7 @@ body{
     font-family: "Kaushan Script";
 }
 .e20{
-    font-family: cursive;
+    font-family: "Comic Sans",cursive;
     font-size: 26.666px;
     color: rgb(17, 85, 204);
     text-decoration: underline;
@@ -196,4 +203,13 @@ body{
     display: block;
     margin: 0 auto;
     max-width: 512px;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        padding: 2rem 2rem 0;
+    }
+    .img1{
+        height: 180px;
+    }
 }
