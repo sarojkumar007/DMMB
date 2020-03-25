@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(116, 27, 71);
+    color: #fff;
+    line-height: 1.5;
+}
+.footer{
+    font-size: 16px;
+    padding: 2rem;
+    text-align: right;
+    font-weight: bold;
+    font-family: "Courgette";
+}
+.container{
+    display: block;
+    margin: 0 auto;
+    min-height: 100vh;
+    max-width: 892px;
+    background-color: #fff;
+    color: #000;
+    padding: 4rem 4rem 0;
+}
+.e1{
+    color: rgb(102, 0, 0);
+    font-size: 18.66666px;
+    font-family: Arial;
+}
+.e1 span{
+    color: #000;
+}
+.e2{
+    font-size: 37.3333px;
+    text-align: center;
+    font-family: Arial;
+}
+.e2s1{
+    background-color: rgb(28, 69, 135);
+    color: #fff;
+}
+.e2s2{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+.e3{
+    font-family: Arial;
+    font-size: 15.99999px;
+    color: rgb(39, 78, 19);
+    font-weight: bold;
+    text-align: center;
+}
+.e4{
+    font-family: cursive;
+    font-size: 23.99999px;
+    font-weight: bold;
+    color: rgb(116, 27, 71);
+    text-decoration: underline;
+}
+
+.e5{
+    font-family: cursive;
+    font-size: 21.33333px;
+    list-style-type: none;
+    margin-left: 4rem;
+}
+.e5 li:before{
+    content: "\27A2";
+}
+.e6{
+    font-family: cursive;
+    font-size: 18.6666px;
+}
+.e6s1{
+    font-family: "Kaushan Script";
+    font-weight: bold;
+    font-size: 21.328px;
+}
+.e7{
+    font-family: cursive;
+    font-size: 47.999px;
+    font-weight: bolder;
+    text-align: center;
+}
+.e8{
+    display: inline-block;
+    font-family: Arial;
+    font-size: 39.999px;
+    background-color: rgb(17, 85, 204);
+    color: #fff;
+    font-weight: bold;
+}
+.e9{
+    font-family: "Pacifico";
+    font-size: 47.9999px;
+    color: rgb(116, 27, 71);
+}
+.e10{
+    display: inline-block;
+    font-family: Arial;
+    font-size: 31.992px;
+    background-color: rgb(60, 120, 216);
+    color: #fff;
+}
+.e11{
+    font-family: Arial;
+    font-size: 31.992px;
+    font-weight: bolder;
+}
+.e12{
+    font-family: cursive;
+    font-size: 18.662px;
+}
+.e12s1{
+    color: rgb(61, 133, 198);
+}
+.e13{
+    font-family: cursive;
+    font-size: 21.332px;
+    color: rgb(166, 77, 121);
+    text-align: center;
+    font-weight: bolder;
+}
+.e14{
+    font-family: "Caveat";
+    font-weight: 700;
+    font-size: 31.9992px;
+    color: rgb(109, 158, 235);
+}
+.e15{
+    display: inline-block;
+    font-family: cursive;
+    font-size: 21.332px;
+    background-color: rgb(116, 27, 71);
+    color: #fff;
+}
+.e16{
+    font-family: cursive;
+    font-size: 26.666px;
+    color: rgb(11, 83, 148);
+}
+.e17{
+    font-family: cursive;
+    font-size: 21.332px;
+    font-weight: bolder;
+}
+.e18{
+    font-family: "Courgette";
+    font-size: 23.999px;
+    color: rgb(103, 78, 167);
+}
+.e19{
+    font-family: "Caveat";
+    font-size: 39.999px;
+    font-weight: bold;
+    color: rgb(116, 27, 71);
+}
+.e19 b{
+    font-family: "Kaushan Script";
+}
+.e20{
+    font-family: cursive;
+    font-size: 26.666px;
+    color: rgb(17, 85, 204);
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+.e21{
+    display: inline-block;
+    font-family: "Kaushan Script";
+    font-size: 21.328px;
+    background-color: rgb(116, 27, 71);
+    color: #fff;
+}
+.e22{
+    font-family: "Kaushan Script";
+    font-size: 21.332px;
+    color: rgb(116, 27, 71);
+    font-weight: bold;
+}
+.e23{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 31.9992px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/*Images */
+.img1{
+    display: block;
+    margin: 0 auto;
+    max-width: 512px;
+}

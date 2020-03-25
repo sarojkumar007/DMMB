@@ -1,0 +1,24 @@
+{
+  "name": "dmm-abhishek",
+  "version": "1.0.1",
+  "description": "DMM Site for Abhishek",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=9595",
+    "dist": "surge --domain dmm-abhishek.surge.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarojkumar007/DMMB.git"
+  },
+  "keywords": [
+    "DMMB"
+  ],
+  "author": "Saroj Kumar Sahoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarojkumar007/DMMB/issues"
+  },
+  "homepage": "https://github.com/sarojkumar007/DMMB"
+}
