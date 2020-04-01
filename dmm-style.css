@@ -16,21 +16,14 @@ body{
     color: #fff;
     line-height: 1.5;
 }
-.footer{
-    font-size: 16px;
-    padding: 2rem;
-    text-align: right;
-    font-weight: bold;
-    font-family: "Courgette";
-}
 .container{
     display: block;
     margin: 0 auto;
     min-height: 100vh;
-    max-width: 892px;
+    max-width: 1000px;
     background-color: #fff;
     color: #000;
-    padding: 4rem 4rem 0;
+    padding: 4rem;
 }
 .e1{
     color: rgb(102, 0, 0);
@@ -85,6 +78,28 @@ body{
     font-family: "Kaushan Script";
     font-weight: bold;
     font-size: 21.328px;
+}
+.e6s2{
+    font-weight: bold;
+    font-size: 23.994px;
+}
+.e6 h2{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 31.992px;
+    background-color: rgb(252, 229, 205);
+    color: #000;
+}
+.e6 h1{
+    font-size: 31.992px;
+}
+.e6 h1 span{
+    color: rgb(61, 133, 198);
+}
+.e6s3{
+    font-size: 23.999px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
 }
 .e7{
     font-family: "Comic Sans",cursive;
@@ -196,7 +211,44 @@ body{
     text-align: center;
     text-decoration: underline;
 }
-
+.e24{
+    display: inline-block;
+    font-family: "Comic Sans", cursive;
+    font-size: 21.328px;
+    background-color: rgb(11, 83, 148);
+    color: #fff;
+}
+.e25{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 26.6666px;
+    color: rgb(17, 85, 204);
+}
+.e26{
+    font-family: "Comic Sans",cursive;
+    font-size: 18.6662px;
+    font-weight: bold;
+    color: rgb(116, 27, 71);
+}
+.link-box{
+    text-align: center;
+    padding: 1rem 3rem;
+}
+.dmm-link{
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+    background-color: rgb(39, 78, 19);
+    color: #fff;
+    font-family: Arial;
+    font-size: 21.328;
+    font-weight: bold;
+    border-radius: 100px;
+}
+.dmm-link:hover,.dmm-link:focus{
+    background-color: rgb(17, 85, 204);
+}
 
 /*Images */
 .img1{
@@ -204,10 +256,43 @@ body{
     margin: 0 auto;
     max-width: 512px;
 }
+.img2{
+    max-width: 745px;
+    height: 380px;
+}
 
+.testimonial--container{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.testimonial{
+    flex: 0 0 45% !important;
+    width: 45%;
+    display: inline-block;
+    margin: 1rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+.footer{
+    font-size: 16px;
+    padding: 2rem;
+    font-weight: bold;
+    font-family: "Courgette";
+    background-color: rgb(116, 27, 71);
+    color: #fff;
+    border-radius: 10px;
+}
 @media screen and (max-width: 600px){
     .container{
-        padding: 2rem 2rem 0;
+        padding: 2rem;
     }
     .img1{
         height: 180px;
